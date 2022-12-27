@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body {height: 100vh; font: 16px 'Open Sans', sans-serif;}
+
+/* Typical Device Breakpoints
+----------------------------------
+* Pequenas telas :        -  600px
+* Smartphones    :  600px -  768px
+* Tablets        :  769px -  992px
+* Desktops       :  993px - 1200px
+* Grandes Telas  : 1201px - 
+*/
+
+/* @media screen and (min-width: 601px) and (max-width: 768px) {
+	
+} */
+
+/* #549c9d; #1c7c7d" */
+
+.corpo {
+	max-width: 720px;
+	margin: 0px auto 0px auto;
+}
+
+.lista {
+	padding: 0px 0px 0px 30px;
+}
+
+.para {
+	padding: 10px 15px;
+	text-align: justify;
+}
+
+section {
+	margin: 30px auto;
+	padding: 5px 0px;
+	text-align: justify;
+}
+
+section h1 {
+	background-image: linear-gradient(180deg, #549c9d, #1c7c7d);
+	color: #FFFFFF;
+	padding: 5px 15px;
+}
+
+section h3 {
+	color: #1c7c7d;
+	padding: 0px 15px;
+}
+
+p {
+	padding: 10px 15px;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	color:  #1c7c7d; 
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+header#cabecalho {
+	background-image: linear-gradient(180deg, #549c9d, #1c7c7d);
+}
+
+div#banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+div#banner img {
+	display: block;
+	width: 160px;
+/* 	height: 119px; */
+}
+
+div#titulos {
+	max-width: 560px;
+	text-align: center;
+}
+
+div#titulos h1, div#titulos h2 {
+	padding: 10px 15px;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 720px) {
+	
+	div#banner img {
+		margin: 20px 0px;
+		width: 230px;
+/* 		height: 208px; */
+	}
+
+}
+
+nav#menu-principal ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav#menu-principal ul li a {
+	margin: 3px 0px 0px 0px;
+	display: block;
+	text-decoration: none;
+	padding: 5px 15px;
+	border-radius: 10px 10px 0px 0px;
+	font-weight: bold;
+	background-color: #1c7c7d;
+	color: #FFFFFF;
+}
+
+nav#menu-principal ul li a:hover {
+	background-color: #549c9d;
+	color: #000000;
+	
+}
